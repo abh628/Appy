@@ -23,7 +23,7 @@ LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", None))
 
 # Vars For API End Pont.
 YTPROXY_URL = getenv("YTPROXY_URL", 'https://tgapi.xbitcode.com') ## xBit Music Endpoint.
-YT_API_KEY = getenv("YT_API_KEY" , None ) ## Your API key like: xbit_FLKRN83AEQUFVI7ABVEV5 Get from  https://t.me/tgmusic_apibot
+YT_API_KEY = getenv("YT_API_KEY" , None ) ## Your API key like: xbit_f3iv-j2QmgqVfNIuSVtLO6YwfgX7iCSN Get from  https://t.me/tgmusic_apibot
 
 # Get this value from @MissRose_Bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", None)) 
@@ -42,8 +42,8 @@ GIT_TOKEN = getenv(
     "GIT_TOKEN", ""
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/RockyXUpdate")
-SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/RockyXUpdate")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHAT", "https://t.me/govobots")
+SUPPORT_GROUP = getenv("SUPPORT_GROUP", "https://t.me/govosupportbot")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
