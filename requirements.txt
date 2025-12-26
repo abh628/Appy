@@ -26,6 +26,6 @@ uvloop
 yt-dlp
 youtube-search
 youtube-search-python
-httpx[http2]==0.27.2
+py-yt-search
+httpx[http2]
 bs4
-
