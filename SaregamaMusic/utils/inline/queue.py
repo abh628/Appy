@@ -63,14 +63,37 @@ def queue_back_markup(_, CPLAY):
     return upl
 
 
+#def aq_markup(_, chat_id):
+   # buttons = [
+       # [
+           # InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
+         #   InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
+           # InlineKeyboardButton(text="↻", callback_data=f"ADMIN Replay|{chat_id}"),
+           # InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
+           # InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+      #  ],
+       # [
+          #  InlineKeyboardButton(
+              #  text="˹ᴄʜᴀᴛ ʙᴏᴛ˼ ", url=f"https://t.me/JullyChatBot"
+             #),
+          #  InlineKeyboardButton(
+              #  text="˹ᴍᴜsɪᴄ ʙᴏᴛ ˼", url=f"https://t.me/ShriramxBot"
+            #),
+        #],
+     # ]
+    #return buttons
+
 def aq_markup(_, chat_id):
     buttons = [
         [
-            InlineKeyboardButton(text="▷", callback_data=f"ADMIN Resume|{chat_id}"),
-            InlineKeyboardButton(text="II", callback_data=f"ADMIN Pause|{chat_id}"),
-            InlineKeyboardButton(text="‣‣I", callback_data=f"ADMIN Skip|{chat_id}"),
-            InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
+            InlineKeyboardButton(
+                text="• ᴇʟɪsᴀ ʙᴏᴛ •",
+                url=f"https://t.me/elisamusicbot?start=_tgr_tdK1mFphZDA1"
+            ),
+            InlineKeyboardButton(
+                text="• sᴀɴᴠɪ ʙᴏᴛ •",
+                url="https://t.me/Sanvi_MusicBot?start=_tgr_hfUOkek5YTVl"
+            ),
         ],
     ]
     return buttons
-
